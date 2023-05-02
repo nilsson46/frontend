@@ -1,0 +1,159 @@
+body {
+  font-family: arial;
+  background: #f8f9fb;
+}
+
+html, body, ul, ol, li, form, fieldset, legend {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+#main-nav {
+  background-color: #032f3e;
+}
+#main-nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+@media screen and (max-width: 600px) {
+  #main-nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+#main-nav li {
+  padding: 1rem;
+}
+@media screen and (max-width: 600px) {
+  #main-nav li {
+    padding: 0.5rem;
+  }
+}
+#main-nav li:hover {
+  background-color: #054960;
+}
+#main-nav a {
+  color: #f8f9fb;
+  text-decoration: none;
+}
+
+section h1 {
+  font-size: 12px;
+  color: #032f3e;
+}
+
+.lead-banner {
+  width: 100%;
+  position: relative;
+  color: white;
+  text-align: right;
+}
+.lead-banner .banner-content {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  display: flex;
+}
+.lead-banner img {
+  width: 100%;
+}
+.lead-banner span {
+  font-size: 23px;
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+@media screen and (max-width: 3000px) and (min-width: 1200px) {
+  .lead-banner span {
+    font-size: 4.25rem;
+  }
+}
+.lead-banner span.title {
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.lessons-banner {
+  width: 100%;
+  position: relative;
+  color: white;
+}
+.lessons-banner .banner-content {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  display: flex;
+}
+.lessons-banner img {
+  width: 100%;
+}
+.lessons-banner span {
+  font-size: 23px;
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+@media screen and (max-width: 3000px) and (min-width: 1200px) {
+  .lessons-banner span {
+    font-size: 4.25rem;
+  }
+}
+.lessons-banner span.title {
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+.lessons-banner li {
+  text-transform: uppercase;
+  font-size: 20px;
+  max-width: 500px;
+  margin: 60px 0;
+}
+
+.lesson-list {
+  display: flex;
+}
+
+#services .list {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 2rem;
+}
+#services a {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  color: #032f3e;
+  font-weight: bold;
+}
+#services a:hover {
+  color: #3e1203;
+}
+
+.placeholders {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}/*# sourceMappingURL=styles.css.map */

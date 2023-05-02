@@ -1,0 +1,90 @@
+@import "reset";
+@import "variables";
+@import "mixins";
+
+
+
+
+#main-nav{
+    background-color: $deepBlue;
+    ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding: 1rem;
+        @include mQ(600px){
+        flex-direction: column;
+        align-items: center;
+        }
+    }
+    li{
+        @include mQ(600px){
+        padding: 0.5rem;
+        }
+        &:hover{
+            //lighten if you would like to change to a lighter color for example. 
+            background-color:lighten($color: $deepBlue, $amount: 7)
+        }
+        padding: 1rem;
+    }
+    a{
+        color: $offWhite;
+        text-decoration: none;
+        
+
+    }
+
+} // End main nav 
+
+
+
+section h1{
+    font-size: $sectionHeading;
+    color: $deepBlue;
+}
+//@include fetch the @mixin. 
+.lead-banner{
+    @include banner;
+    text-align: right;
+}
+
+.lessons-banner{
+    @include banner; 
+    li{
+        text-transform: uppercase;
+        font-size: 20px;
+        max-width: 500px;
+        margin: 60px 0;
+        
+    }
+}
+
+.lesson-list{
+    display: flex;
+}
+
+#services{
+    .list{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        padding: 2rem;
+    }
+    a{
+        display: flex;
+        justify-content: space-around;
+        text-decoration: none;
+        color: $deepBlue;
+        font-weight: bold;
+        &:hover{
+            color: complement($color: $deepBlue);
+        }
+    }
+
+}
+
+.placeholders{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+}

@@ -1,0 +1,26 @@
+.huvud{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(220, 218, 218);
+    padding: 1rem;
+    width: 95%;
+}
+.simple{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+
+.knapp{
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.image{
+    width: 95%;
+    padding: 1rem;
+    background-color: blueviolet;
+}

@@ -1,0 +1,39 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+
+.box{
+    outline: solid;
+    margin: 10px;
+}
+
+#first{
+    padding: 10px;
+    margin: 10px;
+    background-color: grey;
+  }
+
+#second{
+    
+    background-color: grey;
+    margin-bottom: 50px;
+    padding:10px;   
+
+}
+
+#third{
+    background-color: grey;
+    padding: 10px;
+
+}
+
+
+
+  
+  /* Layoutet som vi försöker bygga finns i bilden 5_kolumner_v2.png */
